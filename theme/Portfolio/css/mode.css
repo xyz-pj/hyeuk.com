@@ -1,0 +1,16 @@
+html[data-dark=false]{transition: all 2s;}
+html[data-dark=true]{color: #000;transition: all 2s;background-color: #fff;}
+html[data-dark=false] .light{display: none;transition: all 2s;}
+html[data-dark=true] .light{display: block;transition: all 2s;}
+html[data-dark=true] .dark{display: none;transition: all 2s;}
+html[data-dark=false] .dark{display: block;transition: all 2s;}
+html[data-dark=true] .main_container{background: url('../img/bg_light.png');transition: all 2s;}
+html[data-dark=true] .blue{color: #900084;transition: all 2s;}
+html[data-dark=true] #ft{color: #fff;transition: all 2s;}
+html[data-dark=true] #ft:hover h2{color: #900084;}
+html[data-dark=true] .ball{border: 3px solid #900084;}
+html[data-dark=true] .slick-dots li button:before{color: #000 !important}
+html[data-dark=true] #slider-div div img{background: url('../img/bg.png');}
+html[data-dark=true] .popup{background-color: #000;}
+html[data-dark=true] .popup_text{color: #fff;}
+html[data-dark=true] .close{color: #fff;}
